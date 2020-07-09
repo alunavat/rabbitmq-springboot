@@ -1,0 +1,7 @@
+server:
+  port: 9081
+
+
+spring:
+  rabbitmq:
+    addresses: amqp://xdtbuydh:DFVjFXsRoFE4R_d2hUK4KCJuWYYfwZKE@buck.rmq.cloudamqp.com/xdtbuydh

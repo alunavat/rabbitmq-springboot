@@ -1,0 +1,11 @@
+server:
+  port: 9080
+
+
+spring:
+  rabbitmq:
+    addresses: amqp://xdtbuydh:DFVjFXsRoFE4R_d2hUK4KCJuWYYfwZKE@buck.rmq.cloudamqp.com/xdtbuydh
+    directExchange: amq.direct
+    topicExchange: amq.topic
+    directKey: employee
+    topicKey: employee.#
